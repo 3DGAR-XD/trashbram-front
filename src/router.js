@@ -1,19 +1,25 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Login from "@/views/Login.vue";
-import Register from "@/views/Register.vue";
+import login from "@/views/Login.vue";
+import register from "@/views/Register.vue";
+import home from "@/views/Home.vue";
 
 const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "/",
+      path: "/login",
       name: "Login",
-      component: Login
+      component: login
     },
     {
       path: "/signup",
       name: "Register",
-      component: Register
+      component: register
+    },
+    {
+      path: "/",
+      name: "Home",
+      component: home
     }
   ]
 });
