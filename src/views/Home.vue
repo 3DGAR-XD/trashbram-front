@@ -1,4 +1,4 @@
-<templatetemplate>
+<template>
 
 jdjdjdjej
 </template>
