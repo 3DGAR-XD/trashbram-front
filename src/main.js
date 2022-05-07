@@ -1,5 +1,5 @@
 const { createApp } = require('vue');
-import Home from "./App.vue";
-import router from "./router"
+import Home from './App.vue';
+import router from './router';
 
-createApp(Home).use(router).mount("#app");
+createApp(Home).use(router).mount('#app');
