@@ -21,6 +21,11 @@ const router = createRouter({
       path: "/",
       name: "Home",
       component: home
+    },
+    {
+      path: "/terms",
+      name: "Terms and Conditions",
+      component: terms
     }
   ]
 });

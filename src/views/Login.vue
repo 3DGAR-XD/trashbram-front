@@ -6,6 +6,7 @@
         class="form-control"
         id="floatingInput"
         placeholder="name@example.com"
+        required
       />
       <label for="floatingInput">Email</label>
     </div>
@@ -16,6 +17,7 @@
         id="floatingPassword"
         placeholder="Password"
         pattern="[A-Zaa-z]{10}"
+        required
       />
       <label for="floatingPassword">Password</label>
     </div>
