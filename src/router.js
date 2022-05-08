@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import login from "@/views/Login.vue";
 import register from "@/views/Register.vue";
 import home from "@/views/Home.vue";
+import terms from "@/views/Terms.vue";
 
 const router = createRouter({
   history: createWebHistory(),
